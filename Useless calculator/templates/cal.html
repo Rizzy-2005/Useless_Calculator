@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Useless Calculator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body id="main-body">
+  <div class="container">
+    <h1>USELESS CALCULATOR</h1>
+    <div class="Calculator">
+      <input id="Input-box" readonly>
+      <div class="keys">
+        <div class="number_keys">
+          <div id="row1" class="row1">
+            <button id="spcl" onclick="clearinput()">AC</button>
+            <button id="spcl" onclick="appendtodisplay('+/-')">+/-</button>          
+            <button id="spcl" onclick="appendtodisplay('%')">%</button>
+            <button id="operations" onclick="appendtodisplay('/')">/</button>
+          </div>
+          <div id="row2" class="row2">
+            <button id="num" onclick="appendtodisplay('7')">7</button>
+            <button id="num" onclick="appendtodisplay('8')">8</button>
+            <button id="num" onclick="appendtodisplay('9')">9</button>
+            <button id="operations" onclick="appendtodisplay('*')">*</button>
+          </div>
+          <div id="row3" class="row3">
+            <button id="num" onclick="appendtodisplay('4')">4</button>
+            <button id="num" onclick="appendtodisplay('5')">5</button>
+            <button id="num" onclick="appendtodisplay('6')">6</button>
+            <button id="operations" onclick="appendtodisplay('-')">-</button>
+          </div>
+          <div id="row4" class="row4">
+            <button id="num" onclick="appendtodisplay('1')">1</button>
+            <button id="num" onclick="appendtodisplay('2')">2</button>
+            <button id="num" onclick="appendtodisplay('3')">3</button>
+            <button id="operations" onclick="appendtodisplay('+')">+</button>
+          </div>
+          <div id="row5" class="row5">
+            <button id="num0" onclick="appendtodisplay('0')">0</button>
+            <button id="num" onclick="appendtodisplay('.')">.</button>
+            <button id="equals-btn" onclick="calculate()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="corner-text">This is not a ordinary calculator🤪</div>
+  </div>
+  
+  <div class="modal">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button class="modal-btn">OK, whatever...</button>
+    </div>
+  </div>
+
+  <script src="/static/cal.js"></script>
+</body>
+</html>
