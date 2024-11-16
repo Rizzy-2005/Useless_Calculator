@@ -1,7 +1,9 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 # Useless Calculator 🎯
-
+# Hosted Link is given below:
+[Hosted link](https://uselesscalculatoproject.on.drv.tw/www.Uselesscalculator.com/templates/cal.html)
+(For the best experience,please open on a desktop)
 
 ## Basic Details
 ### Team Name: The Boys
